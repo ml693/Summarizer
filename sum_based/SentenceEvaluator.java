@@ -1,9 +1,11 @@
+package sum_based;
+
 import java.util.ArrayList;
 import java.util.Map;
 
 public class SentenceEvaluator {
 
-	int Score(ArrayList<String> sentence,
+	static int Score(ArrayList<String> sentence,
 			Map<String, Integer> wordsFrequencies) {
 		int score = 0;
 		for (String word : sentence) {
